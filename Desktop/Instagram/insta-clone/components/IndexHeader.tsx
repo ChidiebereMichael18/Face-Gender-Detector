@@ -6,11 +6,18 @@ const IndexHeader: React.FC = () => {
   return (
     <View style={styles.container} >
       <View style={styles.header}>
-        <TouchableOpacity>
-            <Ionicons name="camera-outline" size={28} color="black" />
-        </TouchableOpacity>
+      <View>
         <Text style={styles.text}>Instagram</Text>
-        <Ionicons name="paper-plane-outline" size={28} color='black'/>
+      </View>
+        <View style={styles.nav}>
+          <TouchableOpacity>
+              <Ionicons name="camera-outline" size={28} color="black" />
+          </TouchableOpacity>
+          <TouchableOpacity>
+              <Ionicons name="heart-outline" size={28} color="black" />
+          </TouchableOpacity>
+          <Ionicons name="chatbubble-ellipses-outline" size={28} color='black'/>
+        </View>
       </View>
     </View>
   )
@@ -28,6 +35,10 @@ const styles = StyleSheet.create({
          alignItems: 'center',
         //  marginBottom: 20,
      },
+     nav:{
+      flexDirection:'row',
+      gap: 15,
+   },
      text:{
         fontSize: 20,
         fontWeight: "bold",

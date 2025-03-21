@@ -37,7 +37,7 @@ export default function TabLayout() {
         name="Reels"
         options={{
           tabBarIcon: ({ color, focused }) => (
-            <Ionicons name="film-outline" size={28} color={color} />
+            <Ionicons name={focused ? 'add-circle' : 'add-circle-outline'} size={28} color={color} />
           ),
         }}
       />
@@ -45,7 +45,7 @@ export default function TabLayout() {
         name="Activity"
         options={{
           tabBarIcon: ({ color, focused }) => (
-            <Ionicons name={focused ? "heart" : 'heart-outline'} size={28} color={color} />
+            <Ionicons name={focused ? "videocam-outline" : 'videocam-outline'} size={28} color={color} />
           ),
         }}
       />
