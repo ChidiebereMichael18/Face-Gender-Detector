@@ -87,8 +87,8 @@ const posts = [
   {
     id: "10",
     username: "Selena Gomez",
-    profilePic: "https://picsum.photos/110",
-    image: "https://picsum.photos/610",
+    profilePic: "https://picsum.photos/106",
+    image: "https://picsum.photos/698",
     caption: "Hey Jessie",
     likes: 'liked by MikeBytes and 200,500 others',
     isVerified: true,
