@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Montserrat:ital,wght@1,100..900&display=swap');
+@theme {
+  --font-lexend: "Lexend", "serif";
+  --font-montserrat: "Montserrat", "sans-serif";
+  /* --breakpoint-3xl: 1920px; */
+  --color-primary: #0047c0;
+  --color-bg: #d9e5f8;
+  --color-textGrey: #4c688a;
+  --color-textBlue: #002757;
+  --color-textHover:#d6e1f5;
+  --color-blue: #4c688a;
+  --color-blueHover: #0147c1;
+
+}
