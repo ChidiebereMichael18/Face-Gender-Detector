@@ -1,9 +1,10 @@
 import React from "react";
-import Home from "./pages/Home";
+import RouterPath from "./router/RouterPath";
+
 function App() {
   return (
      <div>
-      <Home/>
+      <RouterPath/>
      </div>
   )
 }
